@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Product A Updated",
+      "price": "1000",
+      "img": "https://i.9mobi.vn/cf/Images/huy/2021/12/6/anh-gai-xinh-3.jpg",
+      "description": " Facebook Ảnh Girl Xinh - Ảnh Girl Xinh đã thêm một ảnh mới "
+    },
+    {
+      "id": 2,
+      "name": "Product B",
+      "price": 200,
+      "img": "https://luv.vn/wp-content/uploads/2021/08/hinh-anh-gai-xinh-73.jpg",
+      "description": " Facebook Ảnh Girl Xinh - Ảnh Girl Xinh đã thêm một ảnh mới "
+    },
+    {
+      "name": "Ngọc Huệ",
+      "img": "https://www.hashatit.com/images/uploads/users/44840/profile_picture/xinh.jpg",
+      "price": "2000",
+      "description": "Anyone here after 6 years to listen this masterpiece song❤️",
+      "id": 4
+    },
+    {
+      "name": "Ngọc Huệ",
+      "img": "https://gamek.mediacdn.vn/133514250583805952/2021/9/17/photo-1-1631856680040545802895.jpg",
+      "price": "1200",
+      "description": "Hậu “phốt\" bị phát tán clip nhạy cảm, gái xinh trở lại với hình ảnh khiêu khích gấp bội",
+      "id": 7
+    }
+  ],
+  "users": [
+    {
+      "email": "hieu@gmail.com",
+      "password": "$2a$10$99RPnzwwtIHmL6LbLbC90e4V04xTk4uxTl6KtgXreddh1UHcxjU66",
+      "name": "Hiếu Minh",
+      "id": 1
+    },
+    {
+      "email": "admin@gmail.com",
+      "password": "$2a$10$SAYdcYWENQpTXryHyQepgeo7k5PjgCXb8QJ2Cb0UFq6aBtuOtQ7ha",
+      "name": "admin",
+      "id": 2
+    }
+  ]
+}
