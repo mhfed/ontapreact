@@ -13,6 +13,7 @@ import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Signup from "./pages/Signup";
 import Signin from "./pages/Signin";
+import WebsiteLayout from "./pages/layouts/WebsiteLayout";
 
 function App() {
     const [products, setProducts] = useState<ProductType[]>([]);
@@ -55,12 +56,13 @@ function App() {
             toast.info("Đã cập nhật thành công");
         } catch (error) {}
     };
+
     return (
         <div className="App">
             <ToastContainer />
             <Routes>
-                <Route path="/">
-                    <Route index element={<Home />} />
+                <Route path="/" element={<WebsiteLayout />}>
+                    <Route index element={<Home products={products} />} />
                 </Route>
                 <Route
                     path="admin"
